@@ -26,3 +26,23 @@ clears the text off the terminal
 . - same level
 
 / - The root directory (could be c: in windows)
+
+
+# GIT commands
+
+## clone <repoUrl>
+Downloads repository to your local PWD
+## init
+Starts a local git repository
+## add <file>
+Tracks file or folder (you can use "git add ." to track everything)
+
+## commit <-m> <message>
+Takes a snapshot of the directory
+
+## push <server?> <branch?>
+Send your commits to the server
+
+## pull <server?> <branch?>
+receives commits from the server
+
